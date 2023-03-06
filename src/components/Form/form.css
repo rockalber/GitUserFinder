@@ -1,0 +1,22 @@
+/* LoginComponent.css */
+
+/* Since Material UI uses the modern flexbox implementation, we can use justify-content and align-items */
+.centerMyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    
+  }
+.FormCenter{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+}
+.ResultCenter{
+  margin: 25px;
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+      }
