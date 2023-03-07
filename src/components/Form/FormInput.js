@@ -6,10 +6,11 @@ import "./form.css";
 const FormInput = (props) => {
   // const [Data, setData] = useState({});
   const [User, setUser] = useState('');
+  //Count we are using everytime we click on button count 
   const [Count, setCount] = useState(0);
   const [IsValid, setIsValid] = useState(false)
   
-
+//we are fetching data using useEffect
   useEffect(
     () => {
       return async function getApi() {
